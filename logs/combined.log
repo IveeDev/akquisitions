@@ -47,3 +47,373 @@
 {"level":"info","message":"::1 - - [30/Sep/2025:19:03:17 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-09-30T19:03:17.545Z"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquisitions-api","timestamp":"2025-09-30T19:03:18.032Z","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [30/Sep/2025:19:03:18 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-09-30T19:03:18.035Z"}
+{"level":"info","message":"Using Neon Local configuration for development","service":"acquisitions-api","timestamp":"2025-10-05T04:15:11.423Z"}
+{"level":"info","message":"Connecting to database: postgres://neon:****@neon-local:5432/neondb?sslmode=require","service":"acquisitions-api","timestamp":"2025-10-05T04:15:11.437Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T04:15:20.867Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:15:22 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:15:22.037Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:15:52 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:15:52.822Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:16:23 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:16:23.400Z"}
+{"level":"info","message":"Hello from Acqisitions!","service":"acquisitions-api","timestamp":"2025-10-05T04:16:30.616Z"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [05/Oct/2025:04:16:30 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-10-05T04:16:30.624Z"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [05/Oct/2025:04:16:31 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-10-05T04:16:31.944Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:16:54 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:16:54.424Z"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [05/Oct/2025:04:17:16 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-05T04:17:16.078Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:17:24 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:17:24.944Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:17:55 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:17:55.522Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:18:26 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:18:26.116Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:18:57 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:18:57.449Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:19:28 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:19:28.660Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:19:59 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:19:59.466Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:20:30 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:20:30.320Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:21:00 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:21:00.871Z"}
+{"level":"info","message":"User adrian@gmail.com created successfully!","service":"acquisitions-api","timestamp":"2025-10-05T04:21:07.946Z"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [05/Oct/2025:04:21:07 +0000] \"POST /api/v1/auth/sign-up HTTP/1.1\" 201 102 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-05T04:21:07.967Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:21:31 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:21:31.791Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:22:03 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:22:03.147Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:22:33 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:22:33.677Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:23:04 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:23:04.352Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:23:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:23:35.204Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:24:05 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:24:05.783Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:24:36 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:24:36.319Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:25:06 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:25:06.929Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:25:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:25:37.746Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:26:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:26:08.279Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:26:38 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:26:38.912Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:27:09 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:27:09.460Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:27:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:27:40.062Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:28:10 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:28:10.560Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:28:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:28:41.014Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:29:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:29:11.481Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:29:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:29:41.940Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:30:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:30:12.467Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:30:43 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:30:43.154Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:31:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:31:13.922Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:31:44 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:31:44.741Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:32:15 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:32:15.239Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:32:45 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:32:45.714Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:33:16 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:33:16.420Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:33:47 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:33:47.195Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:34:17 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:34:17.713Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:34:48 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:34:48.315Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:35:18 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:35:18.864Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:35:49 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:35:49.936Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:36:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:36:20.410Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:36:51 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:36:51.380Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:37:22 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:37:22.097Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:37:52 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:37:52.690Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:38:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:38:23.296Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:38:53 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:38:53.906Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:39:24 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:39:24.445Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:39:55 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:39:55.284Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:40:26 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:40:26.002Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:40:56 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:40:56.827Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:41:27 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:41:27.398Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:41:57 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:41:57.977Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:42:28 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:42:28.584Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:42:59 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:42:59.224Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:43:30 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:43:30.209Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:44:00 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:44:00.717Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:44:31 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:44:31.427Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:45:02 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:45:02.266Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:45:32 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:45:32.927Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:46:03 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:46:03.425Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:46:34 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:46:34.419Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:47:05 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:47:05.379Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:47:36 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:47:36.163Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:48:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:48:06.867Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:48:37 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:48:37.522Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:49:08 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:49:08.136Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:49:38 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:49:38.633Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:50:09 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:50:09.389Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:50:40 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:50:40.007Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:51:11 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:51:11.501Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:51:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:51:42.124Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:52:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:52:12.556Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:52:43 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:52:43.055Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:53:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:53:13.961Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:53:44 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:53:44.498Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:54:15 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:54:15.233Z"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [05/Oct/2025:04:54:40 +0000] \"GET /api/v1/users/ HTTP/1.1\" 404 152 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-05T04:54:40.562Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:54:45 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:54:45.760Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:04:55:16 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2025-10-05T04:55:16.258Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:02:36.691Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:02:36.699Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:02:38.583Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:03:07.576Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:03:07.583Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:03:08.999Z"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api","timestamp":"2025-10-05T05:03:48.103Z"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:03:48 +0000] \"GET /api/v1/users/ HTTP/1.1\" 200 368 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-10-05T05:03:48.717Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:15:42.406Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:15:42.420Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:15:44.460Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:15:51.789Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:15:51.799Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:15:53.417Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:16:16.271Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:16:16.279Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:16:17.755Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:16:22.407Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:16:22.415Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:16:23.808Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:16:51.404Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:16:51.412Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:16:52.763Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:17:05.438Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:17:05.447Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:17:07.113Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:17:13.699Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:17:13.720Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:17:15.799Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:17:52.860Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:17:52.867Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:17:54.281Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:18:06.543Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:18:06.568Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:18:08.475Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:18:16.790Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:18:16.801Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:18:18.714Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:18:23.335Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:18:23.342Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:18:24.707Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:18:30.894Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:18:30.918Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:18:32.484Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:18:49.363Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:18:49.377Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:18:50.774Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:19:25.628Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:19:25.643Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:19:27.426Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:19:53.249Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:19:53.256Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:20:07.437Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:20:07.474Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:20:09.299Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:20:21.002Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:20:21.011Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:20:22.463Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:20:40.562Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:20:40.572Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:20:43.103Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:21:23.291Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:21:23.300Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:21:25.783Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:21:40.308Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:21:40.328Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:21:42.321Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:22:09.658Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:22:09.667Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:22:11.495Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:22:42.134Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:22:42.142Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:22:44.001Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:22:50.451Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:22:50.458Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:22:51.926Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:23:02.447Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:23:02.455Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:23:03.835Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:23:13.527Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:23:13.541Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:23:15.300Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:23:56.448Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:23:56.455Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:23:57.981Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:24:28.208Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:24:28.221Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:24:30.476Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:24:33.638Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:24:33.646Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:24:35.208Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:24:53.272Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:24:53.287Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:24:58.691Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:24:58.722Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:25:00.271Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:25:06.333Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:25:06.354Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:25:08.218Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:25:15.003Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:25:15.015Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:25:16.484Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:25:47.941Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:25:47.954Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:25:50.046Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:26:03.413Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:26:03.420Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:26:04.911Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:26:12.450Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:26:12.457Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:26:13.739Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:26:18.412Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:26:18.419Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:26:19.688Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:27:51.469Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:27:51.476Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:27:53.357Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:27:58.646Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:27:58.653Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:28:00.080Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:28:44.526Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:28:44.534Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:28:46.328Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:28:54.612Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:28:54.621Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:28:56.079Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:29:08.993Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:29:09.000Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:29:10.820Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:29:19.124Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:29:19.135Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:29:20.826Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:29:30.386Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:29:30.403Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:29:31.979Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:30:05.215Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:30:05.223Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:30:06.924Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:30:15.030Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:30:15.056Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:30:16.974Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:30:22.414Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:30:22.433Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:30:24.172Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:30:33.185Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:30:33.207Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:30:35.149Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:30:42.311Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:30:42.319Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:30:44.262Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:30:50.755Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:30:50.763Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:30:52.524Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:31:00.404Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:31:00.417Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:31:02.151Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:31:13.535Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:31:13.582Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:31:15.951Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:31:27.513Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:31:27.526Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:31:31.751Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:31:31.758Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:31:33.223Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:31:44.870Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:31:44.882Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:31:46.189Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:32:01.817Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:32:01.833Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:32:03.525Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:32:11.115Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:32:11.127Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:32:12.657Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:32:28.788Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:32:28.801Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:32:30.891Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:33:11.844Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:33:11.859Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:33:13.438Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:33:33.652Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:33:33.661Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:33:35.543Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:33:47.773Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:33:47.781Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:33:49.850Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:33:58.054Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:33:58.068Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:33:59.908Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:34:07.859Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:34:07.868Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:34:09.426Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:34:45.312Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:34:45.320Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:34:47.149Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:34:53.288Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:34:53.296Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:34:55.507Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:34:58.451Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:34:58.459Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:34:59.948Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:35:25.401Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:35:25.408Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:35:26.797Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:35:41.594Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:35:41.621Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:35:43.331Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:36:16.710Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:36:16.717Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:36:18.461Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:36:28.492Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:36:28.506Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:36:29.877Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:36:33.586Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:36:33.593Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:36:35.070Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:36:45.814Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:36:45.823Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:36:48.268Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:36:53.941Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:36:53.954Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:36:55.647Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:37:06.618Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:37:06.628Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:37:09.172Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:37:14.245Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:37:14.254Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:37:15.768Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:37:26.534Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:37:26.547Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:37:28.159Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:37:38.496Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:37:38.517Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:37:40.031Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:38:53.529Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:38:53.544Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:38:55.923Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:39:06.165Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:39:06.177Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:39:07.547Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:40:00.828Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:40:00.838Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:40:02.387Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:40:09.148Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:40:09.156Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:40:10.397Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:40:15.905Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:40:15.913Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:40:17.625Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:40:34.654Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:40:34.663Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:40:36.237Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:50:25.976Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:50:25.985Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:50:28.155Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:50:45.527Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:50:45.539Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:50:47.137Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:50:54.987Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:50:54.997Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:50:56.871Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:51:22.876Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:51:22.885Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:51:24.675Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:51:34.384Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:51:34.392Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:51:36.071Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:51:48.940Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:51:48.948Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:51:50.454Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:52:33.925Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:52:33.938Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:52:35.880Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:53:30.449Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:53:30.458Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:53:32.478Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:53:46.876Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:53:46.884Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:53:48.460Z"}
+{"level":"info","message":"Using Neon Cloud configuration for production","service":"acquisitions-api","timestamp":"2025-10-05T05:54:20.111Z"}
+{"level":"info","message":"Connecting to database: postgresql://neondb_owner:****@ep-bitter-cake-agddrwwh-pooler.c-2.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require","service":"acquisitions-api","timestamp":"2025-10-05T05:54:20.121Z"}
+{"level":"info","message":"Database connection established successfully","service":"acquisitions-api","timestamp":"2025-10-05T05:54:21.641Z"}
