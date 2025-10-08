@@ -36,6 +36,7 @@ JWT_SECRET=your-super-secure-production-secret
 ```
 
 **Where to find these values:**
+
 - **NEON_API_KEY**: [API Keys Settings](https://console.neon.tech/app/settings/api-keys)
 - **NEON_PROJECT_ID**: Project Settings → General in Neon Console
 - **DATABASE_URL**: Connection string from your Neon project dashboard
@@ -158,15 +159,15 @@ docker-compose -f docker-compose.prod.yml exec app npm run db:migrate
 
 ## 📊 Environment Comparison
 
-| Feature | Development (Neon Local) | Production (Neon Cloud) |
-|---------|--------------------------|-------------------------|
-| Database | Ephemeral branches | Production branch |
-| SSL | Self-signed cert | Full SSL/TLS |
-| Performance | Local proxy | Cloud optimized |
-| Data Persistence | Temporary | Permanent |
-| Hot Reload | ✅ Yes | ❌ No |
-| Resource Limits | None | CPU/Memory limited |
-| Health Checks | Basic | Comprehensive |
+| Feature          | Development (Neon Local) | Production (Neon Cloud) |
+| ---------------- | ------------------------ | ----------------------- |
+| Database         | Ephemeral branches       | Production branch       |
+| SSL              | Self-signed cert         | Full SSL/TLS            |
+| Performance      | Local proxy              | Cloud optimized         |
+| Data Persistence | Temporary                | Permanent               |
+| Hot Reload       | ✅ Yes                   | ❌ No                   |
+| Resource Limits  | None                     | CPU/Memory limited      |
+| Health Checks    | Basic                    | Comprehensive           |
 
 ## 🔍 API Endpoints
 
@@ -205,11 +206,13 @@ curl http://localhost:3000/health
 ## 🛡️ Security Features
 
 ### Development
+
 - Self-signed certificates for Neon Local
 - Relaxed SSL verification
 - Debug logging enabled
 
 ### Production
+
 - Full SSL/TLS encryption
 - Non-root user execution
 - Read-only root filesystem
@@ -221,6 +224,7 @@ curl http://localhost:3000/health
 ### Common Issues
 
 **1. "NEON_API_KEY is required"**
+
 ```bash
 # Make sure .env.local exists and has valid credentials
 cp .env.local.example .env.local
@@ -228,6 +232,7 @@ cp .env.local.example .env.local
 ```
 
 **2. "Database connection failed"**
+
 ```bash
 # Check if Neon Local is healthy
 docker-compose -f docker-compose.dev.yml ps
@@ -235,6 +240,7 @@ docker-compose -f docker-compose.dev.yml logs neon-local
 ```
 
 **3. "Port 3000 already in use"**
+
 ```bash
 # Stop any running services
 npm run docker:dev:down
@@ -243,6 +249,7 @@ lsof -ti:3000 | xargs kill -9
 ```
 
 **4. Docker Build Issues**
+
 ```bash
 # Clean Docker cache and rebuild
 docker system prune -a
@@ -313,7 +320,7 @@ npm run docker:dev          # Start dev environment
 npm run docker:dev:down     # Stop dev environment
 npm run docker:dev:logs     # View dev logs
 
-# Production  
+# Production
 npm run docker:prod         # Start prod environment
 npm run docker:prod:down    # Stop prod environment
 npm run docker:prod:logs    # View prod logs

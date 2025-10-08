@@ -55,7 +55,7 @@ export const signIn = async (req, res, next) => {
 
     const { email, password } = validationResult.data;
     const user = await authenticateUser({ email, password });
-    
+
     const token = jwttoken.sign({
       id: user.id,
       email: user.email,
@@ -91,7 +91,7 @@ export const signOut = async (req, res, next) => {
   try {
     cookies.clear(res, "token");
     logger.info("User signed out successfully");
-    
+
     res.status(200).json({
       message: "User signed out successfully",
     });
