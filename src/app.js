@@ -43,4 +43,8 @@ app.get("/api", (req, res) => {
 
 app.use("/api/v1/auth", authRoute);
 app.use("/api/v1/users", usersRoute);
+
+app.use((req, res) => {
+  res.status(404).json({ error: "Routes not found" });
+});
 export default app;
